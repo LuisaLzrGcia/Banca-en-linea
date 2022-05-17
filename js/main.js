@@ -143,7 +143,7 @@ const ingresarPassword = (usuario) => {
                 <div id="msjPass"></div>
                 <div id="btnIngresarCuenta" class="m-3">
                     <button type="button" id="ingresarCuenta" class="btn btn-warning centrar p-2">
-                    Ingresar 
+                    <div id="msjCarga">Ingresar</div> 
                     </button>
               </div>
             </div>
@@ -174,11 +174,11 @@ const ingresarPassword = (usuario) => {
         } else {
             // se comprueban que la ingresada y la registrada sean la misma
             if (cajaPassword.trim() === usuario.password) {
-                const ingresando = document.getElementById("btnIngresarCuenta")
+                const ingresando = document.getElementById("msjCarga")
                 ingresando.classList.add("centrar")
                 ingresando.innerHTML = `
-                    <div class="spinner-grow text-warning mx-3" style="width: 3rem; height: 3rem;" role="status">
-                    </div>
+                    <span class="spinner-border spinner-border-sm text-light" style="width: 1.5rem; height: 1.5rem;" role="status" aria-hidden="true"></span>
+                    <div class="mx-1"></div>Ingresando...
                 `;
                 setTimeout(function () {
                     window.location.href = "home.html"
