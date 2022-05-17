@@ -1,0 +1,147 @@
+/* ---------- Navegador ---------- */
+.navegador {
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+    top: 0;
+}
+
+/* ---------- Imagen de perfil del usuario selecionado del index ---------- */
+.tm-img40 {
+    width: 40%;
+}
+
+/* ---------- Formulario de contraseña del usuario seleccionado del index ---------- */
+.tm-div60 {
+    width: 50%;
+}
+
+/* ---------- Magen de index con la parte superior en index ---------- */
+.margen {
+    margin-top: 90px;
+}
+
+/* ---------- Fondo azul de navegador y footer ---------- */
+.fondo-azul {
+    background-color: #072146;
+}
+
+/* ---------- Centrar elementos tomando todo el ancho y alto---------- */
+.centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+/* ---------- Centrar elementos ---------- */
+.centrar2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ---------- Tamaño de las tarjetas de los usuarios en index ---------- */
+.tm-div {
+    width: 12rem;
+}
+
+/* ---------- Borde de las tarjetas de los usuarios en index ---------- */
+.borde {
+    border-color: #31D2F2;
+}
+
+/* ---------- Para no mostrar algun elemento ---------- */
+.noVer {
+    display: none;
+}
+
+/* ---------- Para mostrar algun elemento ---------- */
+.ver {
+    display: block;
+}
+
+/* ---------- Estilos complementarios del sidebar cuando el usuario entra a su cuenta ---------- */
+#sidebarUsuario {
+    height: 80vh;
+    position: fixed;
+    z-index: 99;
+
+}
+
+/* ---------- Espacio donde se muestran datos y opciones de un usuario validado ---------- */
+#sitioUsuario {
+    margin-top: 64px;
+    left: 0px;
+    background-color: white;
+    display: flex;
+}
+
+/* ---------- Estilos complementarios de las opciones del sidebar ---------- */
+#opcionesSidebar {
+    height: 51vh;
+}
+
+/* ---------- Hover para el boton home del sidebar ---------- */
+#btnHome:hover {
+    background-color: #0DCAF0;
+}
+
+/* ---------- Hover para los botones: consultar, ingresar y retirar del sidebar ---------- */
+#opcionesSidebar>#btnConsultar:hover,
+#btnIngresar:hover,
+#btnRetirar:hover {
+    background-color: #ffc107;
+}
+
+/* ---------- Footer fijado de un usuario validado ---------- */
+.footerUsuario {
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    z-index: 999;
+}
+
+/* ---------- Estilos complementarios del footer del index ---------- */
+footer {
+    bottom: 0px;
+    position: relative;
+}
+
+/* ---------- Estilos complementarios del espacio de trabajo del usuario ---------- */
+#workSpace {
+    padding: 0.8rem;
+    margin-left: 250px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/* ---------- Espacio para los datos del usuario en home ---------- */
+#datosUsuario {
+    width: 60%;
+}
+
+/* ---------- Espacio apara la foto de perfil del usuario en home ---------- */
+#fotoUsuario {
+    width: 38%;
+}
+
+/* ---------- Tamaño de letra del encabezado de la tabla del perfil del usuario ---------- */
+table>thead {
+    font-size: 25px;
+}
+
+/* ---------- Tamaño de letra del cuerpo de la tabla del perfil del usuario ---------- */
+table>tbody {
+    font-size: 20px
+}
+
+/* ---------- Quitar las flechas de los inputs number ---------- */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
