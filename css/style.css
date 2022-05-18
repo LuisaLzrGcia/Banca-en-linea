@@ -1,3 +1,5 @@
+/************************ Clases ************************/
+
 /* ---------- Navegador ---------- */
 .navegador {
     position: fixed;
@@ -14,11 +16,6 @@
 /* ---------- Formulario de contraseña del usuario seleccionado del index ---------- */
 .tm-div60 {
     width: 50%;
-}
-
-/* ---------- Magen de index con la parte superior en index ---------- */
-.margen {
-    margin-top: 90px;
 }
 
 /* ---------- Fondo azul de navegador y footer ---------- */
@@ -54,6 +51,14 @@
     border-color: #31D2F2;
 }
 
+/* ---------- Footer fijado de un usuario validado ---------- */
+.footerUsuario {
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    z-index: 999;
+}
+
 /* ---------- Para no mostrar algun elemento ---------- */
 .noVer {
     display: none;
@@ -62,6 +67,14 @@
 /* ---------- Para mostrar algun elemento ---------- */
 .ver {
     display: block;
+}
+
+/************************ Id's ************************/
+
+/* ---------- Espacio en blanco del index ---------- */
+#index {
+    margin-top: 90px;
+    min-height: calc(100vh - 155px);
 }
 
 /* ---------- Estilos complementarios del sidebar cuando el usuario entra a su cuenta ---------- */
@@ -97,14 +110,6 @@
     background-color: #ffc107;
 }
 
-/* ---------- Footer fijado de un usuario validado ---------- */
-.footerUsuario {
-    position: fixed;
-    width: 100vw;
-    bottom: 0;
-    z-index: 999;
-}
-
 /* ---------- Estilos complementarios del espacio de trabajo del usuario ---------- */
 #workSpace {
     padding: 0.8rem;
@@ -122,6 +127,8 @@
 #fotoUsuario {
     width: 38%;
 }
+
+/************************ Etiquetas ************************/
 
 /* ---------- Tamaño de letra del encabezado de la tabla del perfil del usuario ---------- */
 table>thead {
